@@ -1,0 +1,40 @@
+header {
+    background-color: #bbbbbb;
+    padding: 20px 0;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+    
+    
+}
+
+.Caixa{
+    position: relative;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.logo{
+    height: 250px;
+    width: 250px;
+}
+
+nav li {
+    display: inline-block;
+    vertical-align: right;
+    
+}
+nav a:hover{ 
+    color: purple; /* :hover vc determina o q vai acontecer quando passar o mouse por cima */
+    text-decoration: underline;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
